@@ -1,0 +1,321 @@
+/* === ASSETS: CSS Variables === */
+
+:root {
+  /* Gifs */
+  --gif-3d1: url('gifs/3d1.gif');
+  --gif-3d2: url('gifs/3d2.gif');
+  --gif-arrow-top: url('gifs/Arrow Top.gif');
+  --gif-check-board: url('gifs/check board.gif');
+  --gif-gamepad: url('gifs/gamepad.gif');
+  --gif-hey: url('gifs/Hey.gif');
+  --gif-location: url('gifs/location.gif');
+  --gif-man-cart: url('gifs/Man with Cart.gif');
+  --gif-marketplace: url('gifs/Marketplace.gif');
+  --gif-moonwalk: url('gifs/Moon Walk.gif');
+  --gif-partnership: url('gifs/Partnership.gif');
+
+  /* Images */
+  --img-himanshu: url('images/himanshu-gaur.jpeg');
+  --img-keshav: url('images/keshav-verma.jpeg');
+  --img-neeraj: url('images/neeraj-walia.jpeg');
+  --img-purav: url('images/purav-jha.jpeg');
+
+  /* Logos - Color */
+  --logo-ajio-color: url('logos/colorLogos/ajio-color.svg');
+  --logo-amazon-color: url('logos/colorLogos/amazon-color.svg');
+  --logo-app-store-color: url('logos/colorLogos/app-store-color-100.svg');
+  --logo-croma-color: url('logos/colorLogos/croma-color.svg');
+  --logo-decathlon-color: url('logos/colorLogos/decathlon-color.svg');
+  --logo-diesel-color: url('logos/colorLogos/diesel-color.svg');
+  --logo-flipkart-color: url('logos/colorLogos/flipkart-color.svg');
+  --logo-hotstar-color: url('logos/colorLogos/hotstar-color.svg');
+  --logo-ikea-color: url('logos/colorLogos/ikea-color.svg');
+  --logo-instagram-color: url('logos/colorLogos/instagram-color.png');
+  --logo-linkedin-color: url('logos/colorLogos/linkedin-color.png');
+  --logo-netflix-color: url('logos/colorLogos/netflix-color.svg');
+  --logo-nykaa-color: url('logos/colorLogos/nykaa-color.svg');
+  --logo-paytm-color: url('logos/colorLogos/paytm-color.svg');
+  --logo-playstore-color: url('logos/colorLogos/play-store-color-100.png');
+  --logo-puma-color: url('logos/colorLogos/puma-color.svg');
+  --logo-uber-color: url('logos/colorLogos/uber-color.svg');
+  --logo-youtube-color: url('logos/colorLogos/youtube-color.png');
+  --logo-zomato-color: url('logos/colorLogos/zomato-color.svg');
+
+  /* Logos - Mono */
+  --logo-ajio: url('logos/ajio.svg');
+  --logo-amazon: url('logos/amazon.svg');
+  --logo-app-store: url('logos/app-store-100.svg');
+  --logo-croma: url('logos/croma.svg');
+  --logo-decathlon: url('logos/decathlon.svg');
+  --logo-diesel: url('logos/diesel.svg');
+  --logo-flipkart: url('logos/flipkart.svg');
+  --logo-hotstar: url('logos/hotstar.svg');
+  --logo-ikea: url('logos/ikea.svg');
+  --logo-instagram: url('logos/instagram.png');
+  --logo-linkedin: url('logos/linkedin.png');
+  --logo-netflix: url('logos/netflix.svg');
+  --logo-nykaa: url('logos/nykaa.svg');
+  --logo-paytm: url('logos/paytm.svg');
+  --logo-playstore: url('logos/play-store-100.png');
+  --logo-puma: url('logos/puma.svg');
+  --logo-stoofers: url('logos/stoofers.png');
+  --logo-uber: url('logos/uber.svg');
+  --logo-youtube: url('logos/youtube.png');
+  --logo-zomato: url('logos/zomato.svg');
+
+  /* Screenshots */
+  --ss-pic-1: url('screenshots/pic_1.png');
+  --ss-pic-2: url('screenshots/pic_2.png');
+  --ss-pic-3: url('screenshots/pic_3.png');
+  --ss-pic-4: url('screenshots/pic_4.png');
+  --ss-pic-5: url('screenshots/pic_5.png');
+  --ss-pic-6: url('screenshots/pic_6.png');
+  --ss-pic-7: url('screenshots/pic_7.png');
+  --ss-pic-8: url('screenshots/pic_8.png');
+  --ss-pic-9: url('screenshots/pic_9.png');
+
+  /* student png */
+
+  --img-student-1: url('logos/student-1.png');
+  --img-student-2: url('logos/student-2.png');
+  --img-student-3: url('logos/student-3.png');
+
+  /* vendor */
+  --svg-vendor: url('logos/vendor.svg');
+  --svg-user: url('logos/user.svg');
+}
+
+/* === ASSETS: Utility Classes === */
+
+.bg-gif-3d1 {
+  background-image: var(--gif-3d1);
+}
+.bg-gif-3d2 {
+  background-image: var(--gif-3d2);
+}
+.bg-gif-arrow {
+  background-image: var(--gif-arrow-top);
+}
+.bg-gif-check {
+  background-image: var(--gif-check-board);
+}
+.bg-gif-gamepad {
+  background-image: var(--gif-gamepad);
+}
+.bg-gif-hey {
+  background-image: var(--gif-hey);
+}
+.bg-gif-location {
+  background-image: var(--gif-location);
+}
+.bg-gif-man-cart {
+  background-image: var(--gif-man-cart);
+}
+.bg-gif-market {
+  background-image: var(--gif-marketplace);
+}
+.bg-gif-moonwalk {
+  background-image: var(--gif-moonwalk);
+}
+.bg-gif-partner {
+  background-image: var(--gif-partnership);
+}
+
+/* Repeat for logos, people, screenshots as needed... */
+
+.bg-logo-ajio {
+  background-image: var(--logo-ajio);
+}
+.bg-ss-pic-1 {
+  background-image: var(--ss-pic-1);
+}
+.bg-ss-pic-2 {
+  background-image: var(--ss-pic-2);
+}
+.bg-ss-pic-3 {
+  background-image: var(--ss-pic-3);
+}
+.bg-ss-pic-4 {
+  background-image: var(--ss-pic-4);
+}
+.bg-ss-pic-5 {
+  background-image: var(--ss-pic-5);
+}
+.bg-ss-pic-6 {
+  background-image: var(--ss-pic-6);
+}
+.bg-ss-pic-7 {
+  background-image: var(--ss-pic-7);
+}
+.bg-ss-pic-8 {
+  background-image: var(--ss-pic-8);
+}
+.bg-ss-pic-9 {
+  background-image: var(--ss-pic-9);
+}
+
+/* Generic style */
+.bg-asset {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-logo-ajio {
+  background-image: var(--logo-ajio);
+}
+.bg-logo-ajio-color {
+  background-image: var(--logo-ajio-color);
+}
+.bg-logo-amazon {
+  background-image: var(--logo-amazon);
+}
+.bg-logo-amazon-color {
+  background-image: var(--logo-amazon-color);
+}
+.bg-logo-app-store {
+  background-image: var(--logo-app-store);
+}
+.bg-logo-app-store-color {
+  background-image: var(--logo-app-store-color);
+}
+.bg-logo-croma {
+  background-image: var(--logo-croma);
+}
+.bg-logo-croma-color {
+  background-image: var(--logo-croma-color);
+}
+.bg-logo-decathlon {
+  background-image: var(--logo-decathlon);
+}
+.bg-logo-decathlon-color {
+  background-image: var(--logo-decathlon-color);
+}
+.bg-logo-diesel {
+  background-image: var(--logo-diesel);
+}
+.bg-logo-diesel-color {
+  background-image: var(--logo-diesel-color);
+}
+.bg-logo-flipkart {
+  background-image: var(--logo-flipkart);
+}
+.bg-logo-flipkart-color {
+  background-image: var(--logo-flipkart-color);
+}
+.bg-logo-hotstar {
+  background-image: var(--logo-hotstar);
+}
+.bg-logo-hotstar-color {
+  background-image: var(--logo-hotstar-color);
+}
+.bg-logo-ikea {
+  background-image: var(--logo-ikea);
+}
+.bg-logo-ikea-color {
+  background-image: var(--logo-ikea-color);
+}
+.bg-logo-instagram {
+  background-image: var(--logo-instagram);
+}
+.bg-logo-instagram-color {
+  background-image: var(--logo-instagram-color);
+}
+.bg-logo-linkedin {
+  background-image: var(--logo-linkedin);
+}
+.bg-logo-linkedin-color {
+  background-image: var(--logo-linkedin-color);
+}
+.bg-logo-netflix {
+  background-image: var(--logo-netflix);
+}
+.bg-logo-netflix-color {
+  background-image: var(--logo-netflix-color);
+}
+.bg-logo-nykaa {
+  background-image: var(--logo-nykaa);
+}
+.bg-logo-nykaa-color {
+  background-image: var(--logo-nykaa-color);
+}
+.bg-logo-paytm {
+  background-image: var(--logo-paytm);
+}
+.bg-logo-paytm-color {
+  background-image: var(--logo-paytm-color);
+}
+.bg-logo-playstore {
+  background-image: var(--logo-playstore);
+}
+.bg-logo-playstore-color {
+  background-image: var(--logo-playstore-color);
+}
+.bg-logo-puma {
+  background-image: var(--logo-puma);
+}
+.bg-logo-puma-color {
+  background-image: var(--logo-puma-color);
+}
+.bg-logo-uber {
+  background-image: var(--logo-uber);
+}
+.bg-logo-uber-color {
+  background-image: var(--logo-uber-color);
+}
+.bg-logo-youtube {
+  background-image: var(--logo-youtube);
+}
+.bg-logo-youtube-color {
+  background-image: var(--logo-youtube-color);
+}
+.bg-logo-zomato {
+  background-image: var(--logo-zomato);
+}
+.bg-logo-zomato-color {
+  background-image: var(--logo-zomato-color);
+}
+
+.bg-img-himanshu {
+  background-image: var(--img-himanshu);
+}
+.bg-img-keshav {
+  background-image: var(--img-keshav);
+}
+.bg-img-neeraj {
+  background-image: var(--img-neeraj);
+}
+.bg-img-purav {
+  background-image: var(--img-purav);
+}
+
+/* student png */
+.bg-img-student-1 {
+  background-image: var(--img-student-1);
+}
+.bg-img-student-2 {
+  background-image: var(--img-student-2);
+}
+.bg-img-student-3 {
+  background-image: var(--img-student-3);
+}
+/* .bg-img-vendor {
+  background-image: var(--svg-vendor);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1rem;
+} */
+
+/* .bg-img-user {
+  background-image: var(--svg-user);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1rem;
+} */
+
+/* .bg-gif-3d1,
+.bg-gif-3d2 {
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1rem;
+} */
